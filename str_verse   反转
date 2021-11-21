@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+//this is my first github coding
 void main()
 {
 	char verse(char str[1000]);
