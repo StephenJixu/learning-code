@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+	char verse(char str[1000]);
+	char str1[1000];
+	scanf("%s",str1);
+	verse(str1);
+}
+
+char verse(char str[1000])
+{
+	char str2[1000];
+	int i,leng;
+	leng=strlen(str);
+	for(i=0;i<leng;i++)
+		str2[leng-i-1]=str[i];
+	for(i=0;i<leng;i++)
+		printf("%c",str2[i]);
+	return(0);
+}
