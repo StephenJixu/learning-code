@@ -1,3 +1,8 @@
+G-sort编写key来进行排序
+
+
+
+
 '''第二周A'''
 import math
 while True:
